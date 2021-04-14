@@ -1,0 +1,86 @@
+.mytext{
+	font-size: 25px;
+}
+.slider{
+	height: 100vh;
+}
+.slider1{
+	width: 100%;
+	position: fixed;
+	z-index: 10;
+}
+.myimg{
+	width: 100%;
+	height: 100%;
+}
+.slider2{
+	z-index: 2;
+}
+.mycard{
+	height: 300px;
+}
+.mycard2{
+	height: 50vh;
+	width: 50vh;
+}
+.banner2{
+	background: url(../img/ban.jpg);
+	float: left;
+	width: 100%;
+	height: 150px;
+	
+	background-size: cover; /*Imagen al 100%*/
+	background-attachment: fixed; /* posicion fija para la imagen*/
+}
+.banner2 h3{
+	background: rgba(0,0,0,.5);
+	font-size: 28px;
+	height: 100%;
+	padding-top: 70px;
+}
+		/*ESTILOS MISION Y VISION*/
+
+.fondo{
+	background: url("../img/Fmision.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+.fondo1{
+	background: url("../img/Fvision.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+		/*FIN*/
+
+		
+/*ESTIOS ADMINISTRADOR*/
+#container{
+    height: 100%;
+}
+#container>.row{
+    height: 100%
+}
+
+#main-menu{
+    height: 100%;
+    background: #014c8c;
+}
+.main-menu-hide{
+    display: none;
+}
+
+#right-content{
+    background: #c1e2b3;
+}
+
+#right-content #top-menu{
+    background: #e4b9b9;
+}
+#right-content #top-menu i{
+    cursor: pointer;
+}
+
